@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 
 client.on('ready', () => {
-     client.user.setActivity("1music",{type: 'LISTENING'});
+     client.user.setActivity("حزن",{type: 'LISTENING'});
 });
 
 
