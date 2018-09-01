@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- const prefix = "1";
+ const prefix = "7";
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 
 client.on('ready', () => {
-     client.user.setActivity("حزن~_~",{type: 'LISTENING'});
+     client.user.setActivity("7music/حزن~_~",{type: 'LISTENING'});
 });
 
 
