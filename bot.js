@@ -19,6 +19,15 @@ client.on('ready',async () => {
 });
 
 
+
+
+client.on('message', msg => {
+  if(msg.content === '2stop')
+  msg.reply('**تم إيقاف الأغنية|✅**')
+});
+
+
+
 const developers = ["408005403381858304","513666662004686848"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
