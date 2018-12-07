@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 //fff
 client.on('ready', () => {                           
-client.user.setGame(`Silver Community / 2play`);                                                                                                                                                                                                                                                                                                                                                                                                                            
+client.user.setGame(`Silver Community / 1play`);                                                                                                                                                                                                                                                                                                                                                                                                                            
 });
 
 
